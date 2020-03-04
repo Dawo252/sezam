@@ -3,6 +3,7 @@
 
 int main()
 {
+
     /*int a, b;
     scanf("%d", &a);
     scanf("%d", &b);
@@ -14,15 +15,23 @@ int main()
 
    /* int figura;
     printf("Podaj figure: 1-trojkat, 2-kwadrat, 3-prostokat");
+    
     scanf("%d", &figura);
+    
     int wys,podst;
+    
     if(figura == 1)
     {
         printf("Podaj wysokosc");
+        
         scanf("%d", &wys);
+        
         printf("Podaj podstawe");
+        
         scanf("%d", &podst);
+        
         printf("Pole to:");
+        
         printf("%d",(wys*podst)/2);
     }
     else if(figura == 2)
